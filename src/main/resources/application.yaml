@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: spring-oauth2-social-login
+  security:
+    user:
+      name: admin
+      password: admin
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: Ov23liXhJn8GiyTo9Hcq
+            client-secret: 9f303e808ddb4df86629c43d0d31b43f7804cff9
+          google:
+            client-id: 713488502664-rftnnr56ohccvukuh307f60frsu6kbg7.apps.googleusercontent.com
+            client-secret: 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
+            scope: email,profile
+server:
+  port: 8090

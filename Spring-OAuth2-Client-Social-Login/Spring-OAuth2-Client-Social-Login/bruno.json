@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Spring-OAuth2-Client-Social-Login",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
